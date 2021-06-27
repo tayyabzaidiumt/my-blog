@@ -1,0 +1,7 @@
+.navbar-custom .navbar-nav .nav-item {
+    text-transform: none;
+}
+
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
+    font-weight: lighter;
+}

@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,21 +18,75 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Tayyab Zaidi
+author: Tayyab Zaidi
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: daattali/beautiful-jekyll@5.0.0
 plugins:
   - jekyll-feed
+
+# --- List of links in the navigation bar --- #
+navbar-links:
+  Reviews:
+    - Books: 'http://tayyabzaidi.me'
+    - Articles: 'http://tayyabzaidi.me'
+    - Websites: 'http://tayyabzaidi.me'
+    - Documentaries: 'http://tayyabzaidi.me'
+    - Podcasts: 'http://tayyabzaidi.me'
+    - Youtube channels: 'http://tayyabzaidi.me'
+    - Interviews: 'http://tayyabzaidi.me'
+    - Debates: 'http://tayyabzaidi.me'
+    - Miscellanea: 'http://tayyabzaidi.me'
+  Articles:
+    - Education: 'http://tayyabzaidi.me'
+    - Language: 'http://tayyabzaidi.me'
+    - Research: 'http://tayyabzaidi.me'
+    - Literature: 'http://tayyabzaidi.me'
+    - Discourse analysis: 'http://tayyabzaidi.me'
+    - American Islam: 'http://tayyabzaidi.me'
+    - Theory: 'http://tayyabzaidi.me'
+    - Pakistan - History and Culture: 'http://tayyabzaidi.me'
+  Audio Content:
+    - Podcasts: 'http://tayyabzaidi.me'
+    - Talks and interviews: 'http://tayyabzaidi.me'
+    - Elocution and rehearsed reading: 'http://tayyabzaidi.me'
+    - Stories: 'http://tayyabzaidi.me'
+    - Poems: 'http://tayyabzaidi.me'
+    - Books: 'http://tayyabzaidi.me'
+  Project Ideas: 'http://tayyabzaidi.me'
+  # About Me: 'aboutme'
+  # Author's home: 'https://deanattali.com'
+
+
+# --- Colours / background image --- #
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#ade8f4"
+navbar-text-col: "#404040"
+navbar-border-col: "#ade8f4"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#f8f7ff"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
