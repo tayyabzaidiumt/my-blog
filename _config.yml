@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tayyab Zaidi
+title: Educational Bridgework
 author: Tayyab Zaidi
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -39,9 +39,9 @@ plugins:
 # --- List of links in the navigation bar --- #
 navbar-links:
   Reviews:
-    - Books: 'http://tayyabzaidi.me'
-    - Articles: 'http://tayyabzaidi.me'
-    - Websites: 'http://tayyabzaidi.me'
+    - Books: 'http://tayyabzaidi.me/books'
+    - Articles: 'http://tayyabzaidi.me/articles'
+    - Websites: 'http://tayyabzaidi.me/websites'
     - Documentaries: 'http://tayyabzaidi.me'
     - Podcasts: 'http://tayyabzaidi.me'
     - Youtube channels: 'http://tayyabzaidi.me'
@@ -59,12 +59,12 @@ navbar-links:
     - Pakistan - History and Culture: 'http://tayyabzaidi.me'
   Audio Content:
     - Podcasts: 'http://tayyabzaidi.me'
-    - Talks and interviews: 'http://tayyabzaidi.me'
-    - Elocution and rehearsed reading: 'http://tayyabzaidi.me'
+    - Talks & interviews: 'http://tayyabzaidi.me'
+  Elocution and rehearsed reading:
     - Stories: 'http://tayyabzaidi.me'
     - Poems: 'http://tayyabzaidi.me'
     - Books: 'http://tayyabzaidi.me'
-  Project Ideas: 'http://tayyabzaidi.me'
+  Projects: 'http://tayyabzaidi.me'
   # About Me: 'aboutme'
   # Author's home: 'https://deanattali.com'
 
@@ -83,6 +83,10 @@ hover-col: "#0085A1"
 footer-col: "#f8f7ff"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
+
+#avatar: "/assets/img/logo.png"
+#round-avatar: false
+title-img: "/assets/img/logo.png"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:

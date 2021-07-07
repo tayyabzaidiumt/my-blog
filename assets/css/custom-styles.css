@@ -5,3 +5,17 @@
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     font-weight: lighter;
 }
+
+@media (min-width: 768px) {
+    .navbar-custom.top-nav-regular .avatar-container {
+        width: 9rem;
+    }
+
+    .navbar-custom .navbar-brand-logo img {
+        height: 5.5rem;
+    }
+}
+
+.intro-header {
+    padding-top: 20px;
+}
