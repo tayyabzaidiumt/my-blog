@@ -38,16 +38,16 @@ plugins:
 
 # --- List of links in the navigation bar --- #
 navbar-links:
-  Reviews:
-    - Books: 'http://tayyabzaidi.me/books'
-    - Articles: 'http://tayyabzaidi.me/articles'
-    - Websites: 'http://tayyabzaidi.me/websites'
-    - Documentaries: 'http://tayyabzaidi.me'
-    - Podcasts: 'http://tayyabzaidi.me'
-    - Youtube channels: 'http://tayyabzaidi.me'
-    - Interviews: 'http://tayyabzaidi.me'
-    - Debates: 'http://tayyabzaidi.me'
-    - Miscellanea: 'http://tayyabzaidi.me'
+  Notes on...:
+    - Books: '/books'
+    - Articles: '/articles'
+    - Websites: '/websites'
+    - Documentaries: '/documentaries'
+    - Podcasts: '/podcasts'
+    - Youtube channels: '/yt-channels'
+    - Interviews: '/interviews'
+    - Debates: '/debates'
+    - Miscellanea: '/miscellanea'
   Articles:
     - Education: 'http://tayyabzaidi.me'
     - Language: 'http://tayyabzaidi.me'

@@ -19,3 +19,9 @@
 .intro-header {
     padding-top: 20px;
 }
+
+img[src*="#thumbnail"] {
+    float: left;
+    margin-right: 10px;
+    max-height: 340px;
+}
